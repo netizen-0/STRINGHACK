@@ -3,10 +3,10 @@ from pyrogram import filters
 import os
 
 class Config:
-    API_ID = "27079591"
-    API_HASH = "c81ae4c3dc026ea4bf49842a8ce4a5f9"
-    #TOKEN = "6521122303:AAGCO3XMjcA0SN5NAi1M0NpmbmMxEtwwYbg"
+    API_ID = "26407378"
+    API_HASH = "0f5b6504d2198c5f00af95975faa5ff2"
+    #TOKEN = "8180856897:AAEGE9YvX9ggQ_4myGXqdj7fbbbMyO68K20"
     TOKEN = os.environ.get("TOKEN", None)
-    MONGO_URL = "mongodb+srv://vivek:1234567890@cluster0.c48d8ih.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    MONGO_URL = "mongodb+srv://yadav99990hsjab:yadav99990hsjab@cluster0.78loh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     START_PIC = "https://files.catbox.moe/ppvvg0.jpg"
-    SUDOERS = filters.user(["8143754205"])
+    SUDOERS = filters.user(["5011400467"])
